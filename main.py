@@ -22,3 +22,6 @@ quiz = QuizBrain(question_bank)
 
 while quiz.still_has_questions():
     quiz.next_question()
+
+print("You have completed the quiz!\n")
+print(f"Your final score is: {quiz.score} out of {len(question_bank)}")
