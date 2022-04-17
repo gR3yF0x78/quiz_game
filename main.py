@@ -11,7 +11,7 @@ question_bank = []
 
 for question in question_data:
     # The short way
-    question_bank.append(Question(question["text"], question["answer"]))
+    question_bank.append(Question(question["question"], question["correct_answer"]))
     # The long way
     # question_text = question["text"]
     # question_answer = question["answer"]
